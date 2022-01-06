@@ -29,7 +29,7 @@ public class WindowUtilities extends JFrame implements ActionListener{
                     frame.add(content);
                     frame.setSize(width, height);
                     frame.setBackground(Color.WHITE);
-                  // frame.setResizable(false);
+                    frame.setResizable(false);
                     frame.setJMenuBar(createMenuBar());
                     frame.requestFocusInWindow();
                     frame.setLocationRelativeTo(null);
